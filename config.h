@@ -70,5 +70,5 @@ static const struct arg args[] = {
   { ram_perc, "RAM: %s%% | ",                   NULL },
   { disk_perc, "HD1: %s%% | ",                    "/" },
   { disk_perc, "HD2: %s%% | ",                    "/media/Linux_Data/" },
-	{ datetime, "%s | ",      "%A, %d %B %Y | %H:%M:%S" },
+	{ datetime, "%s | ",      "%A, %d %B %Y | %H:%M" },
 };
