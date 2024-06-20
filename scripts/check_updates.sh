@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CACHE_FILE="/tmp/check_updates.cache"
+CACHE_FILE="$HOME/.cache/check_updates.cache"
 CACHE_INTERVAL=300 # 5 minutes
 
 # Check if the cache file exists and is not older than the interval
